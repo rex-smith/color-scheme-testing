@@ -3,6 +3,8 @@
   --primary-color: #750f0f;
   --secondary-color: #00e1ff;
   --tertiary-color: #0000ff;
+  --gray-color: #616161;
+  --subheading-color: #383838;
   --black: #000000;
   --white: #ffffff;
   --gray: #cccccc;
@@ -85,7 +87,7 @@ nav {
   background-color: var(--primary-color);
   color: var(--white);
   padding: 8px 16px 8px 16px;
-  border-radius: 50px;
+  border-radius: 0.2em;
 }
 
 .nav-menu-item.active {
@@ -199,6 +201,14 @@ footer {
   align-items: center;
   justify-content: space-between;
   font-size: 1.2rem;
+}
+
+.font-color-subheading {
+  color: var(--subheading-color);
+}
+
+.font-color-gray {
+  color: var(--gray-color);
 }
 
 input[type="color"] {
